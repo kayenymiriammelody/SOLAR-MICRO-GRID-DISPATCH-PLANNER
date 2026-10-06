@@ -9,6 +9,7 @@ This project focuses on a microgrid that is run by both batteries and solar ener
 - Physically infeasible days were detected and flagged.
 - A statistics report was made to identify the more volatile option between solar and battery usage.
 - Daily and monthly costs of using solar and batteries were computed and plotted.
+- Illustrated the findings.
 ### FINDINGS, LIMITATIONS AND RECOMMENDATIONS
 - The determinant is -5 so it has a unique solution for the solar and battery contributions. With a condition number of 5.82, the solar and battery allocations are to a smaller extent sensitive to battery and solar changes.
 - Both the vectorized call and python loop of the generated  CSV produced the same results. The vectorized approach took 0.429716 seconds and was faster than the loop that took 6.200580seconds.
