@@ -1,7 +1,8 @@
 # SOLAR-MICRO-GRID-DISPATCH-PLANNER
 This project focuses on a microgrid that is run by both batteries and solar energy at a health center. Daily, the energy drawn from solar panels (x) and batteries (y) must satisfy two demand constraints: 
 - 3x + 2y = D1 (daytime load, kWh)                        
-- 4x + y = D2 (critical-equipment load, kWh) This code was edited with the aid of CODEX, an Artificial Intelligence powered tool.
+- 4x + y = D2 (critical-equipment load, kWh)
+-  This code was edited with the aid of CODEX, an Artificial Intelligence powered tool.
 ### IMPLEMENTATION
 - Using object oriented programming in python,  a Microgrid class that holds the coefficient matrix and exposes solve day(d1, d2) was created. 
 - Two input modes were created: an interactive input and 30 random days of demand
